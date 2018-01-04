@@ -1,5 +1,5 @@
 ## Maven
- * [pom.xml](/docs/pom.md)
+ * [pom.xml配置](/docs/POM.md)
  
 ## Spark 知识点
  * [RDD](/docs/RDD.md)
