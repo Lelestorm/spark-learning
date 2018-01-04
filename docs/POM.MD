@@ -1,5 +1,6 @@
  Project Object Model，项目对象模型，通过xml格式描述程序之间的依赖和程序管理相关信息，一般在阅读项目时需要先大致看下root模块的pom文件，便于理解程序的结构
- '''xml
+ 
+ ```xml
  <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <!-- 描述maven版本信息，现在唯一支持maven2、maven3的版本 -->
   <modelVersion>4.0.0</modelVersion>
@@ -29,4 +30,4 @@
 	</dependency>
   </dependencies>
 </project>
- '''
+```
