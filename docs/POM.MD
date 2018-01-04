@@ -1,3 +1,6 @@
+
+## [官方文档](https://maven.apache.org/pom.html) 
+
  Project Object Model，项目对象模型，通过xml格式描述程序之间的依赖和程序管理相关信息，一般在阅读项目时需要先大致看下root模块的pom文件，便于理解程序的结构
  * 声明规范
  * GAV标识
@@ -12,7 +15,7 @@
  > * organization：项目所属组织信息
  * 包类型：packaging （pom , jar , maven-plugin , ejb , war , ear , rar , par），默认jar
  * 模块： modules（子模块） / parent（父级模块）
- * 依赖列表：dependencies
+ * 依赖列表：dependencies（[详情参考依赖机制](https://maven.apache.org/pom.html#Dependencies)）
  * 属性和自定义变量：properties <!--键值对，Properties可以在整个POM中使用，也可以作为触发条件（见settings.xml配置文件里profiles→properties元素的说明）。格式是<name>value</name>。-->
  * 编译设置：build
  * 环境配置
